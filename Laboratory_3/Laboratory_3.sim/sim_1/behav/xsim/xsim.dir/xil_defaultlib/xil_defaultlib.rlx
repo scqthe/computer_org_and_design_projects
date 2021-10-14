@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_3/Laboratory_3.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_3/Laboratory_3.srcs/sim_1/new/testbench.v,1616467934,verilog,,,,testbench,,,,,,,,
+C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_3/Laboratory_3.srcs/sources_1/new/top.v,1616467848,verilog,,C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_3/Laboratory_3.srcs/sim_1/new/testbench.v,,Adder;CU;IDEXE;IFID;IM;Mux;PC;Regfile;Signext;top,,,,,,,,

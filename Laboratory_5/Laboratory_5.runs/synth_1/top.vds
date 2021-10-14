@@ -1,0 +1,290 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May  8 13:55:38 2021
+# Process ID: 170888
+# Current directory: C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.runs/synth_1/top.vds
+# Journal file: C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 167864
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:131]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:131]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (2#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:144]
+INFO: [Synth 8-6157] synthesizing module 'IM' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:156]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (3#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:156]
+INFO: [Synth 8-6157] synthesizing module 'IFID' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:177]
+INFO: [Synth 8-6155] done synthesizing module 'IFID' (4#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:177]
+INFO: [Synth 8-6157] synthesizing module 'CU' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:185]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:200]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:191]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (5#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:185]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:283]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (6#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:283]
+INFO: [Synth 8-6157] synthesizing module 'forwardingMux' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:488]
+INFO: [Synth 8-6155] done synthesizing module 'forwardingMux' (7#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:488]
+INFO: [Synth 8-6157] synthesizing module 'Signext' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:334]
+INFO: [Synth 8-6155] done synthesizing module 'Signext' (8#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:334]
+INFO: [Synth 8-6157] synthesizing module 'IDEXE' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:341]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXE' (9#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:341]
+WARNING: [Synth 8-689] width (32) of port connection 'qa' does not match port width (6) of module 'IDEXE' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:96]
+WARNING: [Synth 8-689] width (32) of port connection 'qb' does not match port width (6) of module 'IDEXE' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:96]
+INFO: [Synth 8-6157] synthesizing module 'Mux2' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:359]
+INFO: [Synth 8-6155] done synthesizing module 'Mux2' (10#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:359]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:370]
+WARNING: [Synth 8-151] case item 4'b0010 is unreachable [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:374]
+WARNING: [Synth 8-151] case item 4'b0010 is unreachable [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:374]
+WARNING: [Synth 8-151] case item 4'b0010 is unreachable [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:374]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:374]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:370]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEM' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:414]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEM' (12#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:414]
+INFO: [Synth 8-6157] synthesizing module 'DataMem' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:428]
+INFO: [Synth 8-6155] done synthesizing module 'DataMem' (13#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:428]
+INFO: [Synth 8-6157] synthesizing module 'MEMWB' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:464]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWB' (14#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:464]
+INFO: [Synth 8-6157] synthesizing module 'WBMux' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:477]
+INFO: [Synth 8-6155] done synthesizing module 'WBMux' (15#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:477]
+INFO: [Synth 8-6157] synthesizing module 'Regfile' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:292]
+INFO: [Synth 8-6155] done synthesizing module 'Regfile' (16#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:292]
+INFO: [Synth 8-6155] done synthesizing module 'top' (17#1) [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+WARNING: [Synth 8-327] inferring latch for variable 'wreg_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:194]
+WARNING: [Synth 8-327] inferring latch for variable 'm2reg_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:195]
+WARNING: [Synth 8-327] inferring latch for variable 'wmem_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:196]
+WARNING: [Synth 8-327] inferring latch for variable 'aluc_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:202]
+WARNING: [Synth 8-327] inferring latch for variable 'aluimm_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:198]
+WARNING: [Synth 8-327] inferring latch for variable 'regrt_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:197]
+WARNING: [Synth 8-327] inferring latch for variable 'q_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:492]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:377]
+WARNING: [Synth 8-327] inferring latch for variable 'x_reg' [C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.srcs/sources_1/new/top.v:437]
+INFO: [Synth 8-3971] The signal "Regfile:/regfile_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 5     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---RAMs : 
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   6 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 2     
+	  33 Input   32 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 7     
+	   4 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 6     
+	   8 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3971] The signal "top/regfile/regfile_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
+-------NONE-------
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance regfile/regfile_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance regfile/regfile_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     2|
+|3     |LUT1     |     3|
+|4     |LUT2     |    20|
+|5     |LUT3     |    14|
+|6     |LUT4     |     6|
+|7     |LUT5     |     5|
+|8     |LUT6     |    22|
+|9     |RAMB18E1 |     2|
+|10    |FDRE     |    59|
+|11    |LD       |     1|
+|12    |IBUF     |     1|
+|13    |OBUF     |    48|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------+--------+------+
+|      |Instance  |Module  |Cells |
++------+----------+--------+------+
+|1     |top       |        |   184|
+|2     |  alu     |ALU     |     6|
+|3     |  cu      |CU      |     1|
+|4     |  exemem  |EXEMEM  |    21|
+|5     |  idexe   |IDEXE   |    54|
+|6     |  ifid    |IFID    |    11|
+|7     |  memwb   |MEMWB   |    18|
+|8     |  pc      |PC      |     9|
+|9     |  regfile |Regfile |     2|
+|10    |  wbmux   |WBMux   |    11|
++------+----------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.824 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1014.824 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 4 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1014.824 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LD => LDCE: 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1014.824 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ananr/Documents/PSU/Spring 2021/CMPEN 331/Labs/Laboratory_5/Laboratory_5.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May  8 13:56:03 2021...
